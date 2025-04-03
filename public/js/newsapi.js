@@ -1,5 +1,5 @@
 function fetchNews() {
-  fetch('/news?q=Trump tariffs')
+  fetch('/news?q=Trump tariff')
     .then(res => res.json())
     .then(data => {
       const container = document.getElementById('news-container');
@@ -16,9 +16,9 @@ function fetchNews() {
         const el = document.createElement('div');
         el.className = 'news-item';
         el.innerHTML = `
-          <h3><a href="${article.url}" target="_blank">${article.title}</a></h3>
-          <p>${article.description || ''}</p>
-          <small>${new Date(article.publishedAt).toLocaleString()} — <em>${article.source.name}</em></small>
+          <a class="article" href="${article.url}" target="_blank">${article.title}</a>
+          <div class="description">${article.description || ''}</div>
+          <div class="date">${new Date(article.publishedAt).toLocaleString()} — <div class="source">${article.source.name}</div></div>
         `;
         container.appendChild(el);
       });

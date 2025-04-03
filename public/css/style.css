@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     width: 100%;
     overflow-x: hidden;
@@ -29,6 +33,8 @@ a, a:visited, a:hover, a:active {
 .header-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -42,10 +48,24 @@ a, a:visited, a:hover, a:active {
     color: rgba(0, 0, 0, 0.8);
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 24px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 /* News */
 
 .news-container {
-
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .news {
@@ -54,19 +74,19 @@ a, a:visited, a:hover, a:active {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .news-item {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .article {
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -84,10 +104,47 @@ a, a:visited, a:hover, a:active {
 }
 
 .date {
-    font-size: 16px;
+    display: flex;
+    font-size: 14px;
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.source {
+    color: rgba(0, 0, 0, 1);
+}
+
+/* Timeline */
+
+.timeline-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.timeline {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* Charts */
+
+.charts-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.charts {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
 }

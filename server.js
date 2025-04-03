@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.get('/news', async (req, res) => {
   console.log('/news endpoint hit');
 
-  const query = req.query.q || 'Trump tariffs';
+  const query = req.query.q || 'Trump tariff';
   const now = new Date();
   const twoDaysAgo = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000);
   const fromDate = twoDaysAgo.toISOString().split('T')[0];
