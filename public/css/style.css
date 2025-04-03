@@ -28,6 +28,32 @@ a, a:visited, a:hover, a:active {
     box-sizing: border-box;
 }
 
+.material-icons {
+    cursor: pointer;
+}
+
+.box {
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.box:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar.box {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+/* Animations */
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
 /* Header */
 
 .header-container {
@@ -59,6 +85,20 @@ a, a:visited, a:hover, a:active {
     font-weight: 600;
     font-style: normal;
     color: rgba(0, 0, 0, 0.5);
+    padding: 4px;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.year {
+    font-size: 14px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* News */
@@ -69,20 +109,52 @@ a, a:visited, a:hover, a:active {
 }
 
 .news {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     font-size: 24px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
+    padding-left: 12px;
+}
+  
+.material-icons.spin {
+    animation: spin 1s linear infinite;
+}
+
+.info {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 12px;
+}
+  
+.updated-tag {
+    font-size: 12px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#news-container {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
 }
 
 .news-item {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .article {
@@ -131,6 +203,7 @@ a, a:visited, a:hover, a:active {
     font-weight: 700;
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
+    padding-left: 12px;
 }
 
 /* Charts */
@@ -147,4 +220,5 @@ a, a:visited, a:hover, a:active {
     font-weight: 700;
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
+    padding-left: 12px;
 }
