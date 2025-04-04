@@ -1,5 +1,5 @@
 function fetchNews() {
-  console.log('📡 Fetching news...');
+  console.log('Fetching news...');
 
   return fetch('/news?q=Trump tariff')
     .then(res => res.json())

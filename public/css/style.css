@@ -78,6 +78,7 @@ a, a:visited, a:hover, a:active {
 .navbar {
     position: sticky;
     top: 0;
+    z-index: 1000;
     display: flex;
     gap: 24px;
     font-size: 16px;
