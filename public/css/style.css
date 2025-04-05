@@ -107,7 +107,6 @@ a:hover {
 
 .news-container {
     padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .news {
@@ -214,6 +213,7 @@ a:hover {
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
     padding-left: 12px;
+    padding-top: 32px;
 }
 
 .timeline-wrapper {
@@ -253,6 +253,11 @@ a:hover {
   
 .timeline-item.left {
     left: 0;
+    text-align: left;
+}
+
+.timeline-item.center {
+    left: 25%;
     text-align: left;
 }
   
