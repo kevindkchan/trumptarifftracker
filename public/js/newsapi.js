@@ -22,7 +22,7 @@ function fetchNews() {
 
       articles.forEach(article => {
         const el = document.createElement('div');
-        el.className = 'news-item';
+        el.className = 'news-item box';
         el.innerHTML = `
           <a class="article" href="${article.url}" target="_blank">${article.title}</a>
           <div class="description">${article.description || ''}</div>

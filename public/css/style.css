@@ -76,9 +76,6 @@ a, a:visited, a:hover, a:active {
 }
 
 .navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     display: flex;
     gap: 24px;
     font-size: 16px;
@@ -164,6 +161,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 4px;
+    background-color: #ffffff;
+    padding: 12px;
 }
 
 .article {
@@ -303,7 +302,7 @@ a:hover {
     border-color: #ccc;
     border-width: 1px;
     border-radius: 4px;
-    background-color: #fdfdfd;
+    background-color: #ffffff;
 }
 
 .timeline-header {
@@ -353,8 +352,6 @@ a:hover {
 /* Charts */
 
 .charts-container {
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .charts {
@@ -365,6 +362,29 @@ a:hover {
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
     padding-left: 12px;
+    padding-top: 32px;
+}
+
+.map {
+    margin: 42px;
+    background-color: #ffffff;
+}
+
+#legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
+    font-family: "Inter", sans-serif;
+}
+  
+#legend div {
+    min-width: 60px;
+    padding: 6px 10px;
+    font-size: 12px;
+    text-align: center;
+    background: #eee;
+    color: #000;
 }
 
 /* Footer */

@@ -347,7 +347,7 @@
                     </div>
                     <div class="timeline-content">
                         <div class="timeline-header">Mar. 5</div>
-                        <div class="timeline-desc">Trump levies 25% import tariffs on Canada and Mexico, as well as an additional 10% tariff on China.</div>
+                        <div class="timeline-desc">Trump grants automakers a reprieve from the 25% tariffs on imports from Canada and Mexico until April 2.</div>
                         <div class="content-bottom">
                             <a class="timeline-link" href="">Fact Sheet</a>
                             <div class="timeline-category">Announcement</div>
@@ -535,9 +535,13 @@
               
         </div>
 
-        <div id="charts" class="charts-container">
-            <div class="charts">
-                Charts
+        <div class="charts">
+            Charts
+        </div>
+        <div id="charts" class="charts-container box">
+            <div class="map box">
+                <div id="d3-world-map" style="width: 100%; height: 100%;"></div>
+                <div id="legend"></div>
             </div>
         </div>
 
@@ -549,6 +553,9 @@
         </div>
     </div>
 
-  <script src="js/newsapi.js"></script>
+    <script src="js/newsapi.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="js/d3-worldmap.js"></script>
 </body>
 </html>
