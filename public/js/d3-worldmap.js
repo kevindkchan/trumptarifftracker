@@ -75,6 +75,6 @@ d3.json("https://unpkg.com/world-atlas@2/countries-110m.json").then(worldData =>
             legendAxis.append("div")
                 .style("text-align", "center")
                 .style("width", `${100 / (thresholds.length - 1)}%`)
-                .text(i === thresholds.length - 1 ? `${t}+%` : `${t}%`);
+                .text(i === thresholds.length - 1 ? `${t}%+` : `${t}%`);
         });
 });
