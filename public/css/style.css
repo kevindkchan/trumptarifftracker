@@ -58,8 +58,16 @@ a, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: #fdfdfd;
+    margin-top: 12px;
+    margin-left: 256px;
+    margin-right: 256px;
 }
 
 .header {
@@ -80,6 +88,7 @@ a, a:visited, a:hover, a:active {
     font-weight: 600;
     font-style: normal;
     color: rgba(0, 0, 0, 0.5);
+    background-color: #fff;
     padding: 4px;
 }
 
@@ -135,6 +144,7 @@ a:hover {
     font-style: normal;
     color: rgba(0, 0, 0, 0.5);
     padding-left: 12px;
+    margin-bottom: 8px;
 }
   
 .updated-tag {
@@ -201,8 +211,8 @@ a:hover {
 }
 
 .timeline-navbar {
-    margin-left: 256px;
-    margin-right: 256px;
+    margin-left: 312px;
+    margin-right: 312px;
     background-color: #ffffff;
 }
 
@@ -265,6 +275,7 @@ a:hover {
     color: rgba(0, 0, 0, 0.8);
     padding-left: 12px;
     padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 .timeline-wrapper {
@@ -429,6 +440,7 @@ a:hover {
     color: rgba(0, 0, 0, 0.8);
     padding-left: 12px;
     padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 .map {
