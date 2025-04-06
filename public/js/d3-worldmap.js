@@ -26,7 +26,7 @@ const projection = d3.geoMercator()
 const path = d3.geoPath().projection(projection);
 
 const color = d3.scaleThreshold()
-    .domain([1, 10, 20, 30, 40])
+    .domain([10, 20, 30, 40, 50])
     .range(["#ffecd7", "#ffdcb4", "#ffcd94", "#ffb968", "#ffa237", "#ff8800"]);
 
 d3.json("https://unpkg.com/world-atlas@2/countries-110m.json").then(worldData => {
@@ -48,23 +48,33 @@ d3.json("https://unpkg.com/world-atlas@2/countries-110m.json").then(worldData =>
         return d.properties.name + (rate !== undefined ? `: ${rate}% tariff` : ': no data');
         });
 
-        const thresholds = [1, 10, 20, 30, 40];
+        const thresholds = [10, 20, 30, 40, 50];
         const colors = color.range();
 
         const legendContainer = d3.select("#legend");
 
+        legendContainer.style("position", "relative")
+        .style("width", "100%")
+        .style("height", "20px")
+        .style("background", `linear-gradient(to right, ${colors.join(", ")})`)
+        .style("margin-bottom", "8px");
+
+        const legendScale = d3.scaleLinear()
+        .domain([thresholds[0], thresholds[thresholds.length - 1]])
+        .range([0, 100]);
+
+        const legendAxis = d3.select("#legend")
+        .append("div")
+        .style("display", "flex")
+        .style("justify-content", "space-between")
+        .style("width", "100%")
+        .style("font-size", "12px")
+        .style("color", "#333");
+
         thresholds.forEach((t, i) => {
-        const min = thresholds[i];
-        const max = thresholds[i + 1] || "40+";
-
-        const label = i === thresholds.length - 1 ? `${min}+%` : `${min}–${max}%`;
-
-        legendContainer.append("div")
-            .style("background", colors[i])
-            .style("padding", "6px 10px")
-            .style("color", "#000")
-            .style("font-size", "12px")
-            .text(label);
+            legendAxis.append("div")
+                .style("text-align", "center")
+                .style("width", `${100 / (thresholds.length - 1)}%`)
+                .text(i === thresholds.length - 1 ? `${t}+%` : `${t}%`);
         });
-
 });
