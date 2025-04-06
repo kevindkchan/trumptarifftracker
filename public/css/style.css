@@ -40,10 +40,6 @@ a, a:visited, a:hover, a:active {
     background-color: #fdfdfd;
 }
 
-.box:hover {
-    border-color: rgba(0, 0, 0, 0.8);
-}
-
 .navbar.box {
     padding-left: 48px;
     padding-right: 48px;
@@ -370,6 +366,10 @@ a:hover {
     background-color: #ffffff;
 }
 
+.timeline-content:hover {
+    border-color: #000;
+}
+
 .timeline-header {
     font-size: 16px;
     font-family: "Inter", sans-serif;
@@ -417,6 +417,7 @@ a:hover {
 /* Charts */
 
 .charts-container {
+    padding: 42px;
 }
 
 .charts {
@@ -431,8 +432,8 @@ a:hover {
 }
 
 .map {
-    margin: 42px;
     background-color: #ffffff;
+    padding-top: 12px;
 }
 
 #legend {
@@ -450,6 +451,53 @@ a:hover {
     text-align: center;
     background: #eee;
     color: #000;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+}
+
+table, th, td {
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+table:hover, th:hover, td:hover {
+    border-color: #000;
+}
+
+th {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+td {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.table-update {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* Footer */
