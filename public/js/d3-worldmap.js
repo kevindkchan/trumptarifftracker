@@ -1,5 +1,5 @@
 const width = 960;
-const height = 500;
+const height = 700;
 
 const tariffData = {
     "840": 0,    // USA
@@ -19,8 +19,8 @@ const svg = d3.select("#d3-world-map")
     .attr("width", width)
     .attr("height", height);
 
-const projection = d3.geoEqualEarth()
-    .scale(160)
+const projection = d3.geoMercator()
+    .scale(120)
     .translate([width / 2.5, height / 2]);
 
 const path = d3.geoPath().projection(projection);
