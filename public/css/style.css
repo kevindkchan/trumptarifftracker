@@ -10,6 +10,7 @@ html, body {
 body {
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
 }
 
 a {
@@ -517,11 +518,9 @@ td {
 /* Footer */
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 12px;
+    text-align: center;
     margin-top: 36px;
     margin-bottom: 36px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
 }
