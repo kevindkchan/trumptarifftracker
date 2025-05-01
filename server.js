@@ -13,7 +13,9 @@ app.get('/news', async (req, res) => {
     console.log('/news endpoint hit');
 
     const query = req.query.q || 'Trump tariff';
-    const fromDate = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+    const now = new Date();
+    const twoDaysAgo = new Date(now.getTime() - 2 * 24 * 60 * 60 * 1000);
+    const fromDate = twoDaysAgo.toISOString().split('T')[0];
 
     const apiKey = process.env.NEWSAPI_KEY;
     console.log('API Key loaded:', !!apiKey);
