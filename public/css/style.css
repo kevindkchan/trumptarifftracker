@@ -58,6 +58,18 @@ a, a:visited, a:hover, a:active {
 
 /* Header */
 
+.live {
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
 .header-container {
     display: flex;
     justify-content: center;

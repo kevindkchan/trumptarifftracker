@@ -1,0 +1,380 @@
+[
+  {
+    "date": "Jan. 20",
+    "description": "President Trump, on his Inauguration Day, calls for tariffs on Mexico, Canada and China to be implemented Feb. 1.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Action",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Jan. 26",
+    "description": "Trump threatens 25% tariffs on Colombia after the country refused to accept U.S. planes with deported migrants.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Threatened",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Jan. 26",
+    "description": "President Gustavo Petro agrees to accept planes with deportees from the U.S.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Agreement",
+    "position": "right",
+    "image": "img/canada.png"
+  },
+  {
+    "date": "Jan. 26",
+    "description": "Trump rescinds his threat of 25% tariffs on Colombia",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Withdrawn",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Feb. 1",
+    "description": "Trump signs executive orders to implement tariffs on Canada, Mexico and China, set to start on Feb. 4.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Action",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Feb. 1",
+    "description": "Canada and Mexico threaten tariffs in response.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Threatened",
+    "position": "right",
+    "image": "img/canada.png"
+  },
+  {
+    "date": "Feb. 1",
+    "description": "Canada and Mexico made moves to address Trump's concerns over border security and drug trafficking.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Action",
+    "position": "right",
+    "image": "img/canada.png"
+  },
+  {
+    "date": "Feb. 3",
+    "description": "Trump delays tariffs on Canada and Mexico for 30 days",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Delayed",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Feb. 4",
+    "description": "10% tariffs are put in place against China, the Postal Service bans packages from Hong Kong and China.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Action",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Feb. 4",
+    "description": "China issues retaliatory tariffs.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "right",
+    "image": "img/china.png"
+  },
+  {
+    "date": "Feb. 5",
+    "description": "The Postal Service lifts its ban on packages from China because of the potential to create massive disruptions for online retailers and U.S. shoppers.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Withdrawn",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Feb. 10",
+    "description": "Trump says he will impose 25% tariffs on steel imports from all countries, and he raises aluminum tariffs from 10% to 25%.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Feb. 13",
+    "description": "Trump signs a memorandum that sets the stage for \u201creciprocal tariffs\u201d to be announced on April 2.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Feb. 25",
+    "description": "Trump signs an executive order instructing the Commerce Department to investigate how copper imports threaten America's national security and economic stability.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Feb. 26",
+    "description": "Trump says he might give Canada and Mexico a reprieve on 25% tariffs on goods until April 2.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Feb. 27",
+    "description": "Trump reverses course and says they will go into effect March 4.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Mar. 1",
+    "description": "Trump signs an executive order to increase U.S. lumber production and orders a probe into potential lumber import tariffs.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Mar. 3",
+    "description": "Trump says that 25% tariffs on Canada and Mexico will start on March 4 and told reporters there was \u201cno room\u201d for the countries to make a deal before they begin.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Mar. 4",
+    "description": "Trump levies 25% import tariffs on Canada and Mexico, as well as an additional 10% tariff on China.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "left",
+    "image": "img/usa.png"
+  },
+  {
+    "date": "Mar. 4",
+    "description": "China, Canada, and Mexico threaten retaliatory tariffs.",
+    "link": "",
+    "source": "Fact Sheet",
+    "category": "Announcement",
+    "position": "right",
+    "image": "img/china.png"
+  },
+  {
+      "date": "Mar. 5",
+      "description": "Trump grants automakers a reprieve from the 25% tariffs on imports from Canada and Mexico until April 2.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Mar. 6",
+      "description": "Trump changes course and postpones 25% tariffs for goods covered by the U.S.-Mexico-Canada Agreement (USMCA).",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Mar. 10",
+      "description": "China begins imposing tariffs on imports of U.S. farm products.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "right",
+      "image": "img/china.png"
+  },
+  {
+      "date": "Mar. 10",
+      "description": "Canada announces a 25% surcharge on electricity exports from Ontario.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "right",
+      "image": "img/canada.png"
+  },
+  {
+      "date": "Mar. 11",
+      "description": "Trump announces plans to double tariffs — to 50% overall — on steel and aluminum from Canada, effective March 12.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Mar. 11",
+      "description": "Ontario agrees to suspend the surcharge.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Agreement",
+      "position": "right",
+      "image": "img/canada.png"
+  },
+  {
+      "date": "Mar. 12",
+      "description": "Trump's tariffs on steel and aluminum imports take effect.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Implemented",
+      "position": "center",
+      "image": ""
+  },
+  {
+      "date": "Mar. 12",
+      "description": "The European Union and Canada, in response to Trump's tariffs on steel and aluminum imports taking effect, hit back with their own retaliatory trade actions.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Agreement",
+      "position": "right",
+      "image": "img/canada.png"
+  },
+  {
+      "date": "Mar. 13",
+      "description": "Trump backs off the double tariffs.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Withdrawn",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Mar. 13",
+      "description": "Trump threatens a 200% tariff on European alcohol.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Threatened",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Mar. 24",
+      "description": "Trump announces a 25% secondary tariff on all imports from countries that buy oil or gas from Venezuela, set to take effect on April 2.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Mar. 26",
+      "description": "Trump signs an executive order to impose 25% tariffs on all automobile imports effective April 3rd.",
+      "link": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-adjusts-imports-of-automobiles-and-automobile-parts-into-the-united-states/",
+      "source": "Fact Sheet",
+      "category": "Action",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Apr. 2",
+      "description": "Trump declared 'Liberation Day' and announced sweeping tariffs.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Apr. 3",
+      "description": "The 25% tariff on all foreign made automobiles goes into effect.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Implemented",
+      "position": "center",
+      "image": ""
+  },
+  {
+      "date": "Apr. 5",
+      "description": "The 'Liberation Day' tariffs, a 10% universal tariff on all imports from countries except Canada and Mexico go into effect.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Implemented",
+      "position": "center",
+      "image": ""
+  },
+  {
+      "date": "Apr. 9",
+      "description": "The U.S. increased tariffs on Chinese goods to a cumulative 145%.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Action",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Apr. 9",
+      "description": "China raised its tariffs on U.S. goods to 125% and implemented non-tariff barriers, including export restrictions on rare earth elements.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Action",
+      "position": "right",
+      "image": "img/china.png"
+  },
+  {
+      "date": "Apr. 9",
+      "description": "Following market volatility, President Trump announced a 90-day pause on the newly imposed tariffs for all countries except China.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Apr. 11",
+      "description": "The administration announced that electronics such as smartphones and computers would be exempted from the reciprocal tariffs, though they might be subject to future Section 232 tariffs.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Apr. 21",
+      "description": "President Trump suggested that tariffs on Chinese imports might 'come down substantially.' due to concerns from the CEOs of major U.S. retailers.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Apr. 29",
+      "description": "President Trump signed an executive order to prevent the cumulative effect of multiple tariffs on the same goods, a practice referred to as 'stacking.'",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Announcement",
+      "position": "left",
+      "image": "img/usa.png"
+  },
+  {
+      "date": "Apr. 30",
+      "description": "The U.S. economy contracted by 0.3% in the first quarter of 2025, marking the first decline since early 2022.",
+      "link": "",
+      "source": "Fact Sheet",
+      "category": "Reported",
+      "position": "center",
+      "image": ""
+  }
+]
