@@ -1,6 +1,6 @@
 # Trump Tariff Tracker
 
-A data-driven, interactive website that tracks the tariffs imposed by President Donald Trump across his first and second terms (2017–2021, 2024–Present). The site includes timeline events, tariff tables by country, live news updates, and a D3.js world map visualizing current tariff rates.
+A data-driven, interactive website that tracks the tariffs imposed by President Donald Trump across his first and second terms. The site includes timeline events, tariff tables by country, live news updates, and a world map visualizing current tariff rates.
 
 ## Live Site
 
