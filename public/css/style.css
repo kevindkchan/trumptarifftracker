@@ -154,6 +154,22 @@ a:hover {
     padding-right: 48px;
 }
 
+.arrow {
+    position: fixed;
+    top: 0;
+    width: 35%;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    display: none;
+}
+
+.arrow a {
+    font-family: "Roboto Mono", monospace;
+}
+
 /* News */
 
 .news-container {
