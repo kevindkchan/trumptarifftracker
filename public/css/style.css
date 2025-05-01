@@ -555,12 +555,34 @@ table, th, td {
 }
 
 th {
+    position: relative;
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
+}
+
+#tariff-table thead button {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+}  
+
+.sort-arrow {
+    position: absolute;
+    left: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto Mono", monospace;
 }
 
 td {
@@ -583,15 +605,41 @@ td {
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* Newsletter */
+
+.newsletter {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+    padding-left: 12px;
+    padding-top: 48px;
+    margin-bottom: 8px;
+}
+
+.newsletter-container {
+    border-bottom: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
 /* Footer */
 
 .footer {
+    border-top: 1px solid #ccc;
     text-align: center;
-    margin-top: 36px;
-    margin-bottom: 48px;
     font-family: "Inter", sans-serif;
     font-size: 12px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #fdfdfd;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }

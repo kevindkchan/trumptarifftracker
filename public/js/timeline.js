@@ -8,7 +8,7 @@ fetch('data/timeline_events_2025.json')
         <div class="timeline-item ${event.position}">
             ${event.position !== 'center' ? `
             <div class="timeline-marker">
-                <img src="${event.image}">
+                <img src="${event.image}" loading="lazy">
             </div>` : ''}
             <div class="timeline-content">
                 <div class="timeline-header">${event.date}</div>
