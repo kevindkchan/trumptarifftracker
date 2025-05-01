@@ -1,0 +1,77 @@
+[
+  {
+    "Country": "Brazil",
+    "US imports": "1.2%",
+    "Tariff": "15%"
+  },
+  {
+    "Country": "Canada",
+    "US imports": "12.6%",
+    "Tariff": "25%"
+  },
+  {
+    "Country": "China",
+    "US imports": "13.3%",
+    "Tariff": "145%"
+  },
+  {
+    "Country": "European Union",
+    "US imports": "18.5%",
+    "Tariff": "20%"
+  },
+  {
+    "Country": "India",
+    "US imports": "2.1%",
+    "Tariff": "30%"
+  },
+  {
+    "Country": "Japan",
+    "US imports": "5.1%",
+    "Tariff": "20%"
+  },
+  {
+    "Country": "Malaysia",
+    "US imports": "1.4%",
+    "Tariff": "10%"
+  },
+  {
+    "Country": "Mexico",
+    "US imports": "14.8%",
+    "Tariff": "25%"
+  },
+  {
+    "Country": "Singapore",
+    "US imports": "1.2%",
+    "Tariff": "10%"
+  },
+  {
+    "Country": "South Korea",
+    "US imports": "3.2%",
+    "Tariff": "18%"
+  },
+  {
+    "Country": "Switzerland",
+    "US imports": "1.9%",
+    "Tariff": "10%"
+  },
+  {
+    "Country": "Taiwan",
+    "US imports": "3.6%",
+    "Tariff": "15%"
+  },
+  {
+    "Country": "Thailand",
+    "US imports": "1.9%",
+    "Tariff": "10%"
+  },
+  {
+    "Country": "UK",
+    "US imports": "2.1%",
+    "Tariff": "18%"
+  },
+  {
+    "Country": "Vietnam",
+    "US imports": "4.2%",
+    "Tariff": "12%"
+  }
+]

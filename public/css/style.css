@@ -1,3 +1,7 @@
+:root {
+    color-scheme: light;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,7 +14,7 @@ html, body {
 body {
     margin: 0;
     padding: 0;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto Mono", monospace;
 }
 
 a {
@@ -106,10 +110,42 @@ a:hover {
     color: rgba(0, 0, 0, 0.5);
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    background-color: #fdfdfd;
+    display: none;
+}
+
+.sticky .box {
+    display: flex;
+    gap: 24px;
+    padding: 4px;
+    background-color: #fff;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
 /* News */
 
 .news-container {
-    padding-top: 32px;
+    padding-top: 48px;
 }
 
 .news {
@@ -275,7 +311,7 @@ a:hover {
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
     padding-left: 12px;
-    padding-top: 32px;
+    padding-top: 48px;
     margin-bottom: 8px;
 }
 
@@ -436,7 +472,7 @@ a:hover {
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
     padding-left: 12px;
-    padding-top: 32px;
+    padding-top: 48px;
     margin-bottom: 8px;
 }
 
@@ -504,9 +540,9 @@ td {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.table-update {
+.table-bottom {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     font-size: 14px;
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;

@@ -2,17 +2,51 @@ const width = 960;
 const height = 700;
 
 const tariffData = {
-    "840": 0,    // USA
-    "156": 34,   // China
-    "392": 24,   // Japan
-    "158": 32,   // Taiwan
-    "276": 20,   // Germany
-    "250": 20,   // France
-    "380": 20,   // Italy
-    "724": 20,   // Spain
+    "076": 15,   // Brazil
     "124": 25,   // Canada
-    "484": 25    // Mexico
+    "156": 145,  // China
+    "356": 30,   // India
+    "392": 20,   // Japan
+    "458": 10,   // Malaysia
+    "484": 25,   // Mexico
+    "702": 10,   // Singapore
+    "410": 18,   // South Korea
+    "756": 10,   // Switzerland
+    "158": 15,   // Taiwan
+    "764": 10,   // Thailand
+    "826": 18,   // United Kingdom
+    "704": 12,   // Vietnam
+
+    // EU
+    "040": 20,  // Austria
+    "056": 20,  // Belgium
+    "100": 20,  // Bulgaria
+    "191": 20,  // Croatia
+    "196": 20,  // Cyprus
+    "203": 20,  // Czechia
+    "208": 20,  // Denmark
+    "233": 20,  // Estonia
+    "246": 20,  // Finland
+    "250": 20,  // France
+    "276": 20,  // Germany
+    "300": 20,  // Greece
+    "348": 20,  // Hungary
+    "372": 20,  // Ireland
+    "380": 20,  // Italy
+    "428": 20,  // Latvia
+    "440": 20,  // Lithuania
+    "442": 20,  // Luxembourg
+    "470": 20,  // Malta
+    "528": 20,  // Netherlands
+    "616": 20,  // Poland
+    "620": 20,  // Portugal
+    "642": 20,  // Romania
+    "703": 20,  // Slovakia
+    "705": 20,  // Slovenia
+    "724": 20,  // Spain
+    "752": 20   // Sweden
 };
+  
 
 const svg = d3.select("#d3-world-map")
     .append("svg")
